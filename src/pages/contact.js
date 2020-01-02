@@ -1,7 +1,7 @@
 import React from "react"
 import { Button } from "react-bootstrap"
 
-import "../styles/bootstrap.min.css"
+
 import Header from "../components/header"
 import Footer from "../components/footer"
 
