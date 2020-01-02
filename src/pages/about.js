@@ -11,6 +11,7 @@ class About extends React.Component {
             <div>
                 <Header />
                 <p>Vous êtes dans la section About</p>
+                <Footer />
             </div>
             
         )

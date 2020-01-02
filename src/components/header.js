@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default () => (
     <header>
-        <h1>Blog</h1>
+        <h1>Diallo Mamadou Ciré</h1>
         <nav>
             <ul>
                 <li><Link to="/">Home</Link></li>

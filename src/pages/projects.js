@@ -6,5 +6,6 @@ export default () => (
         <div>
             Cette section est celle des projets
         </div>
+        <Footer />
     </div>
 )
