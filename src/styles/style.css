@@ -22,9 +22,11 @@ nav ul{
     
   }
 
-  ul li{
-    float:left;
-    margin:0 15px;
-    padding:0;
-    outline:1px solid greenyellow;
+  
+
+  /* =========== CONTACT.JS =========== */
+  form{
+    background-color: /*#e7gbe8;*/ #22313F;
+    width: 800px;
+    margin: auto;
   }
