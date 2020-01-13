@@ -8,22 +8,23 @@ import Footer from "../components/footer"
 export default () => (
     <div>
         <Header />
-        <div>
-        <form>
-            <p>
-                <label for="name">Name: </label>
-                <input type="text" id="name" required placeholder="Enter your name" />
-            </p>
-            <p>
-                <label for="email" name="email">E-mail: </label>
-                <input type="email" id="email" placeholder="xyz@xyz.com" required />
-            </p>
-            <p>
-                <label for="message">Message: </label>
-                <textarea id="message">Your message</textarea>
-            </p>
-            <Button variant="primary" block>Send</Button>
-        </form>
+        <div id="contactMe">
+            <h3>Interested ? Mail me</h3>
+            <form>
+                <div className="row">
+                    <label for="name" className="col-md-3">Name: </label>
+                    <input type="text" className="col-7" id="name" required placeholder="Enter your name" />
+                </div>
+                <div className="row">
+                    <label for="email" name="email" className="col-md-3">E-mail: </label>
+                    <input type="email" id="email" className="col-7" placeholder="xyz@xyz.com" required />
+                </div>
+                <div className="row">
+                    <label for="message" className="col-md-3">Message: </label>
+                    <textarea id="message" className="col-7" rows="5">Your message</textarea>
+                </div>
+                <Button variant="primary" block>Send</Button>
+            </form>
         </div>
         <Footer />
     </div>

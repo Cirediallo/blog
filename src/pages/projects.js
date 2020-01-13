@@ -5,9 +5,9 @@ import Footer from "../components/footer"
 export default () => (
     <div>
         <Header />
-        <div>
-            Cette section est celle des projets
-        </div>
+        <section id="works">
+            this part will come ASAP ...
+        </section>
         <Footer />
     </div>
 )
